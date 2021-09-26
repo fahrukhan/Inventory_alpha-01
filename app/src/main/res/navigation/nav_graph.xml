@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.inventory_alpha_01.ui.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_inboundFragment"
+            app:destination="@id/inboundFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/inboundFragment"
+        android:name="com.example.inventory_alpha_01.ui.fragment.InboundFragment"
+        android:label="fragment_inbound"
+        tools:layout="@layout/fragment_inbound" >
+        <action
+            android:id="@+id/action_inboundFragment_to_outboundFragment"
+            app:destination="@id/outboundFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/outboundFragment"
+        android:name="com.example.inventory_alpha_01.ui.fragment.OutboundFragment"
+        android:label="fragment_outbound"
+        tools:layout="@layout/fragment_outbound" >
+        <action
+            android:id="@+id/action_outboundFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.inventory_alpha_01.ui.fragment.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_searchFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+</navigation>

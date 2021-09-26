@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="" />
+
+    <item
+        android:title="" />
+
+    <item
+        android:title="" />
+
+    <item
+        android:title="" />
+
+    <item
+        android:id="@+id/nav_next"
+        android:icon="@drawable/ic_navigate_next"
+        android:iconTint="@color/white"
+        android:title="Next"
+        tools:targetApi="o" />
+</menu>

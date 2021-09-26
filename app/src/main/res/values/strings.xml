@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Inventory_alpha-01</string>
+
+    <!--    for stock page-->
+    <string name="stock_code">stock</string>
+    <string name="stock_title">Stock</string>
+
+    <!--    for dashboar page-->
+    <string name="dashboard_code">200101</string>
+    <string name="dahsboard_title">Dashboard</string>
+
+    <!--    for in/out bound pag-->
+    <string name="bound_code">bound</string>
+    <string name="bound_title">In/Outbound</string>
+
+    <!--    for pickup page-->
+    <string name="pickup_code">300103</string>
+    <string name="pickup_title">Pickup</string>
+    <string name="pickup_caption"></string>
+    <string name="pickup_input_date_text">Date</string>
+    <string name="pickup_input_user_text">User</string>
+
+    <!--    for approval page-->
+    <string name="approval_code">300102</string>
+    <string name="approval_title">Outbound Approval</string>
+    <string name="approval_not_checked">approval checkbox is unchecked, sure to continue</string>
+
+    <!--    for configuration page-->
+    <string name="configuration_code">configuration</string>
+    <string name="configuration_title">Configuration</string>
+
+    <!--    for login page-->
+    <string name="login_code">login</string>
+    <string name="login_title">Login</string>
+    <string name="login_username_empty">*username has not been filled</string>
+    <string name="login_password_empty">*password has not been filled</string>
+    <string name="login_password_not_match">*username and password do not match</string>
+
+    <!--    for read data page-->
+    <string name="read_data_code">600103</string>
+    <string name="read_data_title">Stock Opname</string>
+
+    <!--    for update stock page-->
+    <string name="update_stock_code">detail</string>
+    <string name="update_stock_title">Update Stock</string>
+    <string name="update_stock_caption">Update the jewerly stock</string>
+    <string name="update_stock_no_specific_location">No specific location</string>
+
+    <!--    for read tag page-->
+    <string name="read_tag_code">600101</string>
+    <string name="read_tag_title">Read Tag</string>
+    <string name="read_tag_result_text">Item list</string>
+
+    <!--    for relocation page-->
+    <string name="relocation_code">600102</string>
+    <string name="relocation_title">Relocation</string>
+    <string name="relocation_caption">Move the jewerly to another location</string>
+    <string name="relocation_location_caption">Make sure the selected location is correct</string>
+    <string name="relocation_location_select_caption">Move to</string>
+
+    <!--    for register page-->
+    <string name="register_code">300101</string>
+    <string name="register_title">RFID Registration</string>
+    <string name="register_caption">Register RFID tag to jewerly</string>
+    <string name="register_select_location_caption">Select location</string>
+    <string name="register_select_jewerly_id_caption">Jewerly Id</string>
+    <string name="register_input_user_text">User</string>
+    <string name="register_input_date_text">Registration date</string>
+    <string name="register_rfid_caption">Make sure the RFID number is correct</string>
+
+    <!--    for set location-->
+    <string name="set_location_code">400102</string>
+    <string name="set_location_title">Set Location</string>
+    <string name="set_location_success">Location Updated</string>
+
+    <!--    for bluetooth page-->
+    <string name="bluetooth_code">400101</string>
+    <string name="bluetooth_title">Set Bluetooth</string>
+    <string name="bluetooth_device_not_suported">Device not supported</string>
+    <string name="bluetooth_not_available">Bluetooth not available in this device</string>
+    <string name="bluetooth_dissconnected">DISCONNECTED</string>
+    <string name="bluetooth_connecting">CONNECTING...</string>
+    <string name="bluetooth_device_invalid">Invalid bluetooth device</string>
+    <string name="bluetooth_not_turn_on">Bluetooth has not turn on</string>
+    <string name="bluetooth_error_connect">Cant connect to device</string>
+    <string name="bluetooth_select_device">Select a device</string>
+
+    <!--    for button-->
+    <string name="text_btn_cancel">Cancel</string>
+    <string name="text_btn_ok">Ok</string>
+    <string name="text_btn_confirm">Confirm</string>
+
+    <!--    for label-->
+    <string name="text_back">back</string>
+    <string name="text_input_isempty">has not been filled</string>
+    <string name="text_input_location_isempty">Location not selected</string>
+    <string name="text_logout">Are you sure for logout from your account?</string>
+    <string name="text_appliction_close">Are you sure you close this app?</string>
+    <string name="text_progress_dialog">Please wait...</string>
+    <string name="text_progress_dialog_authentication">Authentication...</string>
+    <string name="text_data_not_found">Data not found</string>
+    <string name="text_wait_scanning_proccess">Please wait until the loading process is complete.</string>
+    <string name="text_tag_already_exist">Data already exist</string>
+    <string name="text_item_not_selected">No item selected</string>
+    <string name="text_location_id_isempty">The location has not been set, please set the location first</string>
+    <string name="text_data_saved">Data saved successfully</string>
+
+    <!--    for menu-->
+    <string name="menu_add_tag">Add Jewerly Tag</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">WELCOME</string>
+</resources>
